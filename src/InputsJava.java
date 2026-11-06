@@ -9,6 +9,14 @@ public class InputsJava{
         int n = scan.nextInt();
 
         System.out.printf("Você inseriu o número: %d%n", n);
-        System.out.printf("Parabéns!!");
+        System.out.printf("Parabéns!!%n");
+
+        System.out.printf("Digite um Double: ");
+        double n2 = scan.nextDouble();
+
+        System.out.printf("Você inseriu o número: %.3f%n", n2);
+
+
+        scan.close();
     }
 }
